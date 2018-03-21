@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ipsalege wheel assignment - Exam question #2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src ="createWheel.js"></script>
+</head>
+<body>
+    <div>
+        <h2>Ipsalege wheel assignment - Exam question #2</h2>
+        <h2><a href = "fractalPage.html">Go to create fractal assignment</a></h2>
+    </div>
+    
+    <div>
+        <canvas id='canvas' width=800 height=550 style="border:1px solid #b0b0b0;"></canvas></canvas>
+    </div>
+
+
+    <div class="card" id="createLineDiv">
+        <div class="card-body">
+            <h4>Customize Fractal (Line)</h4>
+            <div>
+            <p>
+                Wheel radius
+                <input placeholder="Enter a radius" type="text" id="wheelRadius">
+            </p>
+            </div>
+            <br>
+            <p>
+                Driver's score
+                <input placeholder="Enter a driver's score" type="text" id="driverScore">
+            </p>
+            <br>
+            <p>
+                    Brush thickness
+                    <input placeholder="Enter an amount of thickness" type="text" id="brushThickness">
+                </p>
+            <br>
+            <p>
+                    Line color
+                    <select id="colorPicker">
+                        <option id="optBlack" value="black">Black</option>
+                        <option id="optRed" value="red">Red</option>
+                        <option id="optBlue" value="blue">Blue</option>
+                        <option id="optGreen" value="green">Green</option>
+                        <option id="optPurple" value="purple">Purple</option>
+                    </select>
+                </p>
+            <br>
+        </div>
+        <div>  
+            <button id="drawWheel"  type="button" class="btn btn-success">Create this driver's wheel</button>
+        </div>
+    </div>
+</body>
+</html>

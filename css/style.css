@@ -1,0 +1,25 @@
+#createLineDiv{
+
+    width: 500px;
+}
+
+#createArcDiv{
+    display: none;
+}
+
+
+#optBlack{
+    background-color: black;
+}
+#optRed{
+    background-color: red;
+}
+#optBlue{
+    background-color: lightskyblue;
+}
+#optGreen{
+    background-color: lightgreen;
+}
+#optPurple{
+    background-color: purple;
+}
